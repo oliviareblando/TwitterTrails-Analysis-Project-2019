@@ -16,8 +16,7 @@ the ability to conduct a Depth-First Search.
 ------------------------------------------------------------------------
 
 PROJECT TITLE: TwitterTrails Analysis Project
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PURPOSE OF PROJECT: Map and identify relationships between Twitter trolls
+VERSION or DATE: December 2019
+AUTHORS: O. Reblando and A. Sheikh
+
