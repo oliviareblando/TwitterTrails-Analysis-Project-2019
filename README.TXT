@@ -1,10 +1,21 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+We create a bipartite graph that displays
+the interactions between different users and stories. If a user retweeted a
+story, and edge between the story and user was created. Our RATgraph 
+class holds one instance variable: an AdjListsGraph object 
+(a graph implementation). Our RATgraph class also contains a method that 
+reads a file that holds data about Russian twitter accounts and stories
+they retweeted. That same method also populates the graph with vertices
+and creates edges between them. The RATgraph object and its properties
+are then examined in the Investigate class. This allowed us to answer 
+several important questions using the tools that are inherent to the 
+bipartite graph we created using our AdjListsGraph class, for example,
+the ability to conduct a Depth-First Search.
+
+
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
+PROJECT TITLE: TwitterTrails Analysis Project
 PURPOSE OF PROJECT:
 VERSION or DATE:
 HOW TO START THIS PROJECT:
