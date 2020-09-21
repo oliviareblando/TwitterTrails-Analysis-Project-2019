@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RATgraph
+comment0.text=\n\ Reads\ and\ generates\ a\ bipartite\ graph\ from\ the\ file\:\n\ All_Russian-Accounts-in-TT-stories.csv.tsv\n\n\ @author\ Anushe\ Sheikh\ and\ Olivia\ Reblando\n\ @version\ 12/03/19\n
+comment1.params=inFileName
+comment1.target=RATgraph(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ RATgraph\n
+comment2.params=inFileName
+comment2.target=void\ readFromFile(java.lang.String)
+comment2.text=\n\ Reads\ file\ and\ converts\ each\ line\ into\ some\ nodes\n\ and\ edges.\ \n\n\ @param\ \ inFileName-\ the\ file\ being\ read\n
+comment3.params=
+comment3.target=javafoundations.AdjListsGraph\ getGraph()
+comment3.text=\n\ Getter\ for\ graph\ \n\n\ @return\ \ graph\ -\ bipartite\ graph\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ toString\ method\ converts\ the\ graph\ into\ a\ nice\n\ looking\ string\n\n\ @returns\ String\ \n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ Main\ method\ for\ testing\n
+numComments=6

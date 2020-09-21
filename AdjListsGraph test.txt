@@ -1,0 +1,44 @@
+ javafoundations.AdjListsGraph.main({ });
+***TESTING***
+
+isEmpty()--> expected: true, actual: true
+
+***TESTING getSuccessors() and getPredecessors()***
+expected: [B, F], actual: [B, F]
+expected: [A, E], actual: [A, E]
+
+
+*** TESTING BFS ON BIPARTITE ***
+A--> expected: [A, B, F, E, C, D] , actual: [A, B, F, E, C, D]
+B--> expected: [B, A, E, F, C, D] , actual: [B, A, E, F, C, D]
+C--> expected: [C, D, F, A, B, E], actual: [D, C, F, A, B, E]
+TESTING DFS ON BIPARTITE (UNDIRECTED)
+A--> expected:[A, B, E, F, C, D], actual: [A, B, E, F, C, D]
+B--> expected:[B, A, F, C, D, E], actual: [B, A, F, C, D, E]
+C--> expected:[C, D, F, A, B, E], actual: [D, C, F, A, B, E]
+
+TESTING saveToTGF
+
+
+***TESTING BFS ON TREE(UNDIRECTED)***
+A--> expected: [A, B, C, D, E], actual: [A, B, C, D, E]
+***TESTING BFS Finder ON TREE(UNDIRECTED)***
+A to C--> expected: [A, B, C], actual: [A, B, C]
+***TESTING DFS ON TREE(UNDIRECTED)***
+A--> expected: [A, B, D, E, C], actual: [A, B, D, E, C]
+
+
+***TESTING BFS ON Disconnected(UNDIRECTED)***
+A--> expected: [A, B], actual: [A, B]
+C--> expected: [C], actual: [C]
+***TESTING DFS ON Disconnected(UNDIRECTED)***
+A--> expected: [A, B], actual: [A, B]
+C--> expected: [C], actual: [C]
+
+
+***TESTING BFS ON Cycle (UNDIRECTED)***
+A--> expected: [A, B, C], actual: [A, B, C]
+C--> expected: [C, A, B], actual: [C, A, B]
+***TESTING DFS ON Cycle (UNDIRECTED)***
+A--> expected: [A, B, C], actual: [A, B, C]
+C--> expected: [C, A, B], actual: [C, A, B]
